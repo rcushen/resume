@@ -1,11 +1,15 @@
 -   qualification: BCom in Economics
     school: The University of Melbourne
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    description: First-Class Honours and Dean’s Honours List (top 3%). Contributor to Farrago, committee member with Melbourne Microfinance Initaitive.
 
--   qualification: A-Level Computing
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: Study Abroad
+    school: University College London
+    description: Year of study abroad with Economics and Maths faculty at UCL.
 
--   qualification: A-Level Maths
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: Study Abroad
+    school: London School of Economics
+    description: Intensive summer course in Advanced Econometrics.
+
+-   qualification: VCE
+    school: Melbourne Grammar School
+    description: ATAR 99.35 (top 0.65% of nation; A-Level equivalent of several A*).

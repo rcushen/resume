@@ -43,6 +43,11 @@ dt, dd {
   opacity: 0.65;
 }
 
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
 a {
     color: black!important;
     background: rgba(245, 215, 110, .5);

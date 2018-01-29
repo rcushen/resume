@@ -9,6 +9,7 @@
         --><dd>
             <p>{{ job.description }}</p>
             {{ if job.list }}{{ job.list }}{{ endif }}
+            {{ if job.description2 }}<p>{{ job.description2 }}</p>{{ endif }}
         </dd>
     {% endfor %}
 </dl>

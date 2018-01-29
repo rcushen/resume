@@ -1,18 +1,18 @@
 # Jekyll Resume Theme
 
 # Site settings
-title: MY Resume
-email: cushenr@domain.com
+title: My Resume
+email: cushenr@gmail.com
 description: Ryan Cushen's resume.
 baseurl: "http://ryancushen.com"
 url: "http://ryancushen.com"
 name: Ryan Cushen
-job: writer
+job: Economics Graduate
 location: Melbourne, Australia
 languages: HTML, CSS and Javascript
 twitter_username: rcushen
 github_username:  rcushen
-blog_address: forestforthetree.com
+blog_address: http://www.forestforthetree.com
 linkedin_address: https://uk.linkedin.com/in/ryancushen
 email_address: cushenr@gmail.com
 

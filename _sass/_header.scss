@@ -16,8 +16,11 @@ header {
     margin-bottom: ($spacer * 2);
 
     &__pre, &__post {
-        text-transform: uppercase;
         letter-spacing: 4px;
+    }
+
+    &__post {
+        text-transform: uppercase;
     }
 
     &__main {

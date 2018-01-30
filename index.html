@@ -328,9 +328,11 @@ form{
 			dataType : "html",
 			success : function(data) {
 
+
+				window.location= url;
+
 				$('form').fadeOut(300);
 				$('.wrapper').addClass('form-success');
-				window.location= url;
 
 			},
 			error : function(xhr, ajaxOptions, thrownError) {

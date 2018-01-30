@@ -344,6 +344,8 @@ form{
 	}
 
 	$("#loginbutton").on("click", function() {
+		$('form').fadeOut(500);
+		$('.wrapper').addClass('form-success');
 		loadPage($("#password").val());
 	});
 	$("#password").keypress(function(e) {

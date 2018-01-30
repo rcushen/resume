@@ -60,21 +60,17 @@ background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
 
 	position: absolute;
-	top: 50%;
+	/* top: 50%; */
 	left: 0;
 	width: 100%;
 	height: 100%;
-	margin-top: 0px;
+	/* margin-top: 0px; */
 	overflow: hidden;
+}
 
-	&.form-success{
-		.container{
-			h1{
+	.form-success .container h1{
 				transform: translateY(85px);
 			}
-		}
-	}
-}
 
 .container{
 	max-width: 600px;
@@ -83,13 +79,13 @@ background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
 	height: 400px;
 	text-align: center;
 }
+
 	h1{
 		font-size: 40px;
 		transition-duration: 1s;
 		transition-timing-function: ease-in-put;
 		font-weight: 200;
 	}
-
 
 form{
 	padding: 20px 0;
@@ -141,11 +137,12 @@ form{
 		font-size: 18px;
 		transition-duration: 0.25s;
 
-		&:hover{
-			background-color: rgb(245, 247, 249);
-		}
 	}
-}
+
+	button:hover{
+		background-color: rgb(245, 247, 249);
+	}
+
 
 .bg-bubbles{
 	position: absolute;

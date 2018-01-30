@@ -346,9 +346,9 @@ form{
 	$("#loginbutton").on("click", function() {
 		$('form').fadeOut(500);
 		$('.wrapper').addClass('form-success');
-		setTimout(function() {
+		setTimout(
 			loadPage($("#password").val());
-		}, 500);
+		, 500);
 	});
 	$("#password").keypress(function(e) {
 		if (e.which == 13) {

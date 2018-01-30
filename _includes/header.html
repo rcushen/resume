@@ -1,4 +1,18 @@
 <header>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/text/javascript">
+    import Typed from '../node_modules/typed.js/src/typed.js';
+
+    var options = {
+    strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+    typeSpeed: 40
+    }
+
+    var typed = new Typed(".element", options);
+  </script>
+
+
     <div class="container">
         <div class="intro">
             <p class="intro__pre">Hi There!</p>
@@ -17,16 +31,5 @@
         {{ endif }}
 
     </div>
-
-    <script>
-      import Typed from 'typed.js';
-
-      var options = {
-      strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-      typeSpeed: 40
-      }
-
-      var typed = new Typed(".element", options);
-    </script>
 
 </header>

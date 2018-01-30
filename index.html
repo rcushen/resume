@@ -274,7 +274,7 @@ form{
 			<form class="form">
 				<input id="password" type="password" placeholder="Password">
 				<button type="button" id="loginbutton">Login</button>
-				<p id="wrongPassword" style="display: none">wrong password!</p>
+				<p id="wrongPassword" style="display: none">Wrong password</p>
 			</form>
 		</div>
 
@@ -337,7 +337,7 @@ form{
 				parent.location.hash= hash;
 
 				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
+				$("#password").attr("placeholder","Wrong password!");
 				$("#password").val("");
 			}
 		});
@@ -348,8 +348,7 @@ form{
 	});
 	$("#password").keypress(function(e) {
 		if (e.which == 13) {
-
-			loadPage($("#password").val());
+		loadPage($("#password").val());
 		}
 	});
 	$("#password").focus();

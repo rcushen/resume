@@ -346,7 +346,9 @@ form{
 	$("#loginbutton").on("click", function() {
 		$('form').fadeOut(500);
 		$('.wrapper').addClass('form-success');
-		loadPage($("#password").val());
+		setTimout(function() {
+			loadPage($("#password").val());
+		}, 500);
 	});
 	$("#password").keypress(function(e) {
 		if (e.which == 13) {

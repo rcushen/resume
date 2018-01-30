@@ -4,6 +4,7 @@
             <p class="intro__pre">Hi There!</p>
             <p class="intro__main">My name is <span>{{ site.name }}</span>, and I'm an economics graduate who loves all things maths.</p>
             <p class="intro__post">{{ site.location }}</p>
+            <span id="typed"></span>
         </div>
 
         {{ if site.github_username or site.linkedin_address or site.blog_address or site.twitter_username or site.email_address }}
@@ -16,4 +17,16 @@
         {{ endif }}
 
     </div>
+
+    <script>
+      import Typed from 'typed.js';
+
+      var options = {
+      strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+      typeSpeed: 40
+      }
+
+      var typed = new Typed(".element", options);
+    </script>
+
 </header>

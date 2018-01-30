@@ -348,11 +348,13 @@ form{
 		$('.wrapper').addClass('form-success');
 		loadPage($("#password").val());
 	});
-	// $("#password").keypress(function(e) {
-	// 	if (e.which == 13) {
-	// 	loadPage($("#password").val());
-	// 	}
-	// });
+
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+		e.preventDefault();
+		loadPage($("#password").val());
+		}
+	});
 	$("#password").focus();
 
 	</script>

@@ -1,15 +1,9 @@
 <header>
 
-    <div id="typed-strings">
-      <p>Also I love chocolate.</p>
-      <p>Morover, I think it's excellent!</p>
-    </div>
-    <span id="typed"></span>
-
     <div class="container">
         <div class="intro">
             <p class="intro__pre">Hi There!</p>
-            <p class="intro__main">My name is <span>{{ site.name }}</span>, and I'm an economics graduate who loves all things maths.</p>
+            <p class="intro__main">My name is <span>{{ site.name }}</span>, and I'm an economics graduate who <span id="typed"></span> loves all things maths.</p>
             <p class="intro__post">{{ site.location }}</p>
         </div>
 
@@ -27,13 +21,10 @@
 </header>
 
 <script>
-  var typed = new Typed('#typed', {
-      stringsElement: '#typed-strings'
-  });
-  // var options = {
-  // strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-  // typeSpeed: 40
-  // }
-  //
-  // var typed = new Typed("#typed", options);
+  var options = {
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+  }
+
+  var typed = new Typed("#typed", options);
 </script>

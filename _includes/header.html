@@ -2,22 +2,11 @@
 
   <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
   <script src='../node_modules/typed.js/src/typed.js'></script>
-  <script type="text/javascript">
-
-    var options = {
-    strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-    typeSpeed: 40
-    }
-
-    var typed = new Typed("#typed", options);
-  </script>
-
 
     <div class="container">
         <div class="intro">
             <p class="intro__pre">Hi There!</p>
-            <p class="intro__main">My name is <span>{{ site.name }}</span>, and I'm an economics graduate who loves all things maths.</p>
-            <span id="typed"></span>
+            <p class="intro__main">My name is <span>{{ site.name }}</span>, and I'm an economics graduate who loves all things maths. <span id="typed"></span></p>
             <p class="intro__post">{{ site.location }}</p>
         </div>
 
@@ -31,5 +20,15 @@
         {{ endif }}
 
     </div>
+
+    <script>
+
+      var options = {
+      strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+      typeSpeed: 40
+      }
+
+      var typed = new Typed("#typed", options);
+    </script>
 
 </header>

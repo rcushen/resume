@@ -354,10 +354,13 @@ form{
 	$("#password").keypress(function(e) {
 		if (e.which == 13) {
 		e.preventDefault();
+		$(function () {
+	   $('#password').blur();
+		});
 		loadPage($("#password").val());
 		}
 	});
-	// $("#password").focus();
+	// $("#password").focus(); not sure what this does?
 
 	</script>
 

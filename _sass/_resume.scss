@@ -52,14 +52,14 @@ ul {
 
 a {
     color: black!important;
-    background: rgba(128, 200, 158, 1);
+    background: rgba(125, 191, 163, 1);
     /* background: rgba(245, 215, 110, .5); */
     transition: all linear .2s;
 
 }
 
     a:hover {
-        background: rgba(128, 200, 158, 0.9);
+        background: rgba(125, 191, 163, 0.3);
         /* background: rgba(245, 215, 110, 1); */
         text-decoration: none;
     }

@@ -2,7 +2,7 @@
 
 # Site settings
 title: Ryan Cushen's Resume
-email: cushenr@gmail.com
+email: cushenr@outlook.com
 description: Ryan Cushen's resume.
 baseurl: "http://ryancushen.com"
 url: "http://ryancushen.com"
@@ -13,7 +13,7 @@ twitter_username: rcushen
 github_username:  rcushen
 blog_address: http://www.forestforthetree.com
 linkedin_address: www.linkedin.com/in/ryancushen
-email_address: cushenr@gmail.com
+email_address: cushenr@outlook.com
 
 # Build settings
 markdown: kramdown

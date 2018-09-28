@@ -13,6 +13,11 @@
     period: '2016'
     description: Intensive summer course in Advanced Econometrics at the London School of Economics
 
+-   qualification: Machine Learning Nanodegree
+    school: Udacity
+    period: '2017'
+    description: Extended online course covering the core models and techniques employed across supervised, unsupervised and deep learning problems.
+
 -   qualification: VCE
     school: Melbourne Grammar School
     period: 2010 - 2013

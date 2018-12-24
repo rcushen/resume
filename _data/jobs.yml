@@ -1,12 +1,14 @@
 -   title: Data Analyst
-    company: KPMG (Risk Consulting)
+    company: KPMG
     period: Melbourne, 2018-
-    description: Graduate consultant within the data analytics team in Risk Consulting.
+    description: 'At present, my primary role is that of consultant within the Data Analytics team in Risk Assurance at KPMG. Typical responsibilities here include:'
+    list: '<ul><li>Writing code in R and Python to implement various data analysis techniques;</li><li>Creating data visualisations in R and Tableau, and most importantly;</li><li>Communicating the results of these analyses to internal and external stakeholders.</li></ul>'
+    description2: My work has so far focussed on core business processes, and I've taken a particular interest in the health care sector.
 
 -   title: Research Assistant
     company: The University of Melbourne
     period: Melbourne, 2018-
-    description: Assisting Dr Matthew Greenwood-Nimmo in the Faculty of Economics with research, with a focus on Macroeconomics and Econometrics.
+    description: I'm currently assisting Dr Matthew Greenwood-Nimmo in the Faculty of Economics with research, with a focus on Macroeconomics and Econometrics. This primarily involves the development and implementation of econometric models in R, as well as the write-up of results.
 
 -   title: Maths Tutor
     company: Manning's Tutors
@@ -14,21 +16,21 @@
     description: Whilst in London, I worked part-time as a maths and economics tutor, teaching group and one-on-one sessions with middle- to secondary-school students. These were run through schools, and ranged in scope from struggling GCSE students to high performing A-Level students. Responsibilities included lesson planning, generation of technical course notes, and coordination with teachers regarding learning strategies for specific students.
 
 -   title: Intern
-    company: Rio Tinto (Economics & Markets)
+    company: Rio Tinto
     period: London, 2016
-    description: 'During my time with Rio Tinto London, I worked alongside the economics team, assisting with the production of commodity price forecasts and furthering my applied economic understanding. This involved:'
+    description: 'During my time with Rio Tinto, I worked alongside the Economics & Markets team, assisting with the production of commodity price forecasts and testing out my understanding of industrial economics. This involved:'
     list: '<ul><li>Writing commodity research reports</li><li>Analysis of proprietary cost curve data</li><li>An introduction to commodity forecasting methodologies</li></ul>'
     description2: Key deliverables included an analysis of aluminium industry structure, presented to the group chief economist, and a review of global carbon prices as part of the carbon price forecast. Feedback noted a cogency and clarity of analysis, as well as a quick ability to apply key economic concepts.
 
 -   title: Intern
-    company: KPMG (Advisory, Risk)
+    company: KPMG
     period: Melbourne, 2016
     description: 'Working at KPMG as a summer vacationer again saw me taking part in numerous consulting projects, and developing my skills as an analyst. This involved'
     list: '<ul><li>Interacting and communicating with clients</li><li>Writing and formatting reports, in both Powerpoint and Word</li><li>Data analysis and business process analysis, in Excel and Visio</li></ul>'
-    description2: Feedback again testified to a quick grasp of new concepts, and a strong written competence. My role with KPMG was occasioned by a Partner from my previous internship at Deloitte, who moved firms and suggested that I follow suit.
+    description2: Feedback again testified to a quick grasp of new concepts and a strong written competence.
 
 -   title: Intern
-    company: Deloitte (Risk Advisory)
+    company: Deloitte
     period: Melbourne, 2015
     description: 'As a summer intern at Deloitte, I assisted with various components of the internal audit process, including:'
     list: '<ul><li>Interacting and communicating with clients</li><li>Data analysis in Excel</li><li>Gap analysis, through policy compliance testing</li></ul>'

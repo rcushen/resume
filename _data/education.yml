@@ -13,6 +13,11 @@
     period: '2016'
     description: Intensive summer course in Advanced Econometrics at the London School of Economics
 
+-   qualification: Data Science Nanodegree
+    school: Udacity
+    period: '2019'
+    description: Building on the material covered in the Machine Learning Nanodogree, this online course established a firm foundation in software engineering, web development, data engineering, and other skills central to the practice of Data Science.
+
 -   qualification: Machine Learning Nanodegree
     school: Udacity
     period: '2017'

@@ -7,12 +7,13 @@ description: Ryan Cushen's resume.
 baseurl: "https://ryancushen.com"
 url: "https://ryancushen.com"
 name: Ryan Cushen
-job: Economics Graduate
+job: Manager at KPMG
 location: Sydney, Australia
 twitter_username: rcushen
 github_username:  rcushen
-blog_address: http://www.forestforthetree.com
-linkedin_address: www.linkedin.com/in/ryancushen
+kaggle_username: rcushen
+blog_address: https://www.forestforthetree.com
+linkedin_address: https://www.linkedin.com/in/ryancushen
 email_address: cushenr@gmail.com
 
 # Build settings

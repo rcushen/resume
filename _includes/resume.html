@@ -28,3 +28,16 @@
         </dd>
     {% endfor %}
 </dl>
+
+<h3 class="section-title">Projects</h3>
+<dl class="projects">
+    {% for project in site.data.projects %}
+    <dt>
+            <p class="title"><a href="{{ project.link }}">{{ project.name }}</a></p>
+            <p class="company">{{ project.type }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ project.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>

@@ -31,6 +31,16 @@ dt, dd {
             width: 50%;
         }
     }
+
+    .projects {
+        dt {
+            width: 40%;
+            padding-right: ($spacer * 2);
+        }
+        dd {
+            width: 60%;
+        }
+    }
 }
 
 .title {

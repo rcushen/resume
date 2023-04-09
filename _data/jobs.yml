@@ -7,7 +7,12 @@
     company: KPMG
     period: Sydney, 2018-22
     description: 'As a Manager in the Data Analytics team at KPMG, my responsibilities included:'
-    list: "<ul><li>Leading teams of junior and senior analysts in the delivery of complex analytics work, from initial scoping through to the presentation and reporting of results</li><li>Building relationships with clients, helping to plan and grow their internal analytics capability</li><li>Writing and reviewing code written in R, Python and SQL which implemented various data analysis and visualisation techniques</li><li>Working with senior Partners to realise the firm's broader data and automation strategy</li></ul>"
+    list: "<ul>
+        <li>Leading teams of junior and senior analysts in the delivery of complex analytics work, from initial scoping through to the presentation and reporting of results</li>
+        <li>Building relationships with clients, helping to plan and grow their internal analytics capability</li>
+        <li>Writing and reviewing code written in R, Python and SQL which implemented various data analysis and visualisation techniques</li>
+        <li>Working with senior Partners to realise the firm's broader data and automation strategy</li>
+    </ul>"
     description2: My work focussed on core financial and operational processes, while my clients spanned organisations in the health, natural resources, energy, retail, government and financial services sectors. I also led the development of new analytics products and services within my team and acted as Product Manager for KPMG's internal automation platform.
 
 -   title: Research Assistant

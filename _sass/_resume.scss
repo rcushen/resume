@@ -50,26 +50,23 @@ dt, dd {
 }
 
 .period {
-  opacity: 0.65;
+    opacity: 0.65;
 }
 
 ul {
-  list-style-type: square;
-  list-style-position: inside;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
+    list-style-type: square;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1.5rem;
 }
 
 a {
     color: black!important;
     background: rgba(125, 226, 163, 1);
-    /* background: rgba(245, 215, 110, .5); */
     transition: all linear .2s;
-
 }
 
-    a:hover {
-        background: rgba(125, 226, 163, 0.5);
-        /* background: rgba(245, 215, 110, 1); */
-        text-decoration: none;
-    }
+a:hover {
+    background: rgba(125, 226, 163, 0.5);
+    text-decoration: none;
+}

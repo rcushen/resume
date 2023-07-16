@@ -1,6 +1,7 @@
 -   name: Sequential
+    link: https://www.sequentialapp.com
     type: Web Application
-    description: Project management tool that models everything as a directed graph... lots of cool features fall out of this. Coming soon!
+    description: Project management tool that models everything as a directed graph... lots of cool features fall out of this. Currently in public beta.
 
 -   name: Tableflipper
     link: https://www.tableflipper.io

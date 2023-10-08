@@ -6,13 +6,13 @@
 -   title: Analytics Lead
     company: Prezzee
     period: Melbourne, 2022-
-    description: "Currently leading the analytics team at a fast-growing ecommerce startup. My focus is building out the function's data science and machine learning capability, while solidifying the foundations of our analytics and business intelligence stack. Key responsibilities have included:"
+    description: "Currently leading the analytics team at a fast-growing ecommerce startup. My focus is building out the function's data science and machine learning capability, while solidifying the foundations of our analytics and business intelligence stack. Key accomplishments have included:"
     list: "<ul>
-        <li>End-to-end accountability for our analytics infrastructure, including all ETL workflows, Stitch Data connections, our customer data platform (CDP) in Segment, thousands of tables in our Amazon Redshift data warehouse, all first-party modelling in dbt, version control and CI/CD pipelines for these models, administering Looker, our business intelligence tool, and being on-call for any outages.</li>
-        <li>Designing and implementing our reporting strategy over $1B of sales, for both our internal executive group and external business customers. This included dynamic revenue modelling for each of our business lines, fraud risk modelling to preempt suspicious customer activity, and web analytics over core customer journeys using tagging in Segment.</li>
-        <li>Providing technical leadership for the team by holding regular workshops, sharing constructive code reviews, and continually refactoring our SQL and Python codebase to ensure it is efficient and robust.</li>
-        <li>Owning the roadmap for the analytics function and working with Product Managers across the business to ensure that core product analytics requirements are met.</li>
-        <li>Defining a professional development framework and skills matrix for my team, and ensuring that all the analysts who report to me feel supported in realising their goals and career ambitions.</li>
+        <li>Transforming the team from a reactive business intelligence function into a mature and proactive data science function, which works side-by-side with engineers and product managers across the business to embed ML into our products and services – throughout the full ML lifecycle (experimentation, training, testing and cloud deployment).</li>
+        <li>Designing and implementing Prezzee's financial reporting strategy, which uses dynamic statistical models to determine our cash flow and net margin from $2B of annual sales, as well as quantify and risk-weight $100M of customer deposit liabilities.</li>
+        <li>Building an automated forecasting system that produces daily demand forecasts for thousands of products, which has so far saved over $100k in write-offs and stock-outs. In addition to designing the machine learning solution, I also developed all of the necessary infrastructure and orchestration within AWS using Terraform.</li>
+        <li>Creating a first-party 'fraud lookup tool', which uses graph theory to connect customer personas across transactions and identify patterns in fraud activity. Fraud is a persistent challenge for many ecommerce businesses, and this fraud graph has allowed us to regularly block suspicious transactions, preventing many thousands of dollars of chargebacks.</li>
+        <li>My team recording the highest engagement and satisfaction scores across the entire business during our recent annual culture survey, which helped me successfully negotiate the retention of two junior analysts.</li>
     </ul>"
 
 -   title: Manager

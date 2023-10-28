@@ -6,9 +6,11 @@ email: cushenr@gmail.com
 description: Ryan Cushen's resume.
 baseurl: "https://ryancushen.com"
 url: "https://ryancushen.com"
+
 name: Ryan Cushen
-job: Manager at KPMG
-location: Melbourne, Australia
+job: Data Science Lead at Prezzee
+location: Sydney, Australia
+
 github_address: https://github.com/rcushen
 blog_address: https://www.forestforthetree.com
 linkedin_address: https://www.linkedin.com/in/ryancushen

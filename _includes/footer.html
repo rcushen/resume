@@ -1,10 +1,17 @@
 <footer class="footer">
     <p class="footer__title">{{ site.name }}</p>
     <div class="social">
-        {{ if site.blog_address }}<a href="{{ site.blog_address }}" target="_blank">My Blog</a>{{ endif }}
-        {{ if site.linkedin_address }}<a href="https://www.linkedin.com/in/ryancushen/" target="_blank">LinkedIn</a>{{ endif }}
-        {{ if site.github_username }}<a href="https://github.com/{{ github_username }}" target="_blank">GitHub</a>{{ endif }}
-        {{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+        {{ if site.github_username }}
+			<a href="https://github.com/{{ github_username }}" target="_blank">GitHub</a>
+		{{ endif }}
+        {{ if site.blog_address }}
+            <a href="{{ site.blog_address }}" target="_blank">Blog</a>
+		{{ endif }}
+        {{ if site.linkedin_address }}
+			<a href="https://www.linkedin.com/in/ryancushen/" target="_blank">LinkedIn</a>
+		{{ endif }}
+        {{ if site.email_address }}
+			<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>
+		{{ endif }}
     </div>
-    <!-- <p class="footer__subtitle">{{ site.job }}</p> -->
 </footer>

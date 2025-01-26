@@ -1,12 +1,17 @@
+-   title: Lead Data Scientist
+    company: Prezzee
+    period: Melbourne, 2024-
+    description: Currently leading all things data at PlayHQ.
+
 -   title: Founder
-    company: Sequential
-    period: Melbourne, 2023-
-    description: Currently building Sequential, a project management tool that brings a new (AI-powered) approach to planning, managing and delivering work.
+    company: Rolodeks.ai
+    period: Melbourne, 2025-
+    description: Currently building Rolodeks.ai, which is an AI-powered rolodex. Thesis: LinkedIn is cringe, and networks were supposed to be private. More to come soon.
 
 -   title: Data Science Lead
     company: Prezzee
-    period: Melbourne, 2022-
-    description: "Currently leading the analytics team at a fast-growing ecommerce startup. My focus is building out the function's data science and machine learning capability, while solidifying the foundations of our analytics and business intelligence stack. Key accomplishments have included:"
+    period: Melbourne, 2022-2024
+    description: "Led the analytics and data science team at a fast-growing ecommerce startup. My focus was on building out the function's data science and machine learning capability, while solidifying the foundations of our analytics and business intelligence stack. Key accomplishments included:"
     list: "<ul>
         <li>Transforming the team from a reactive business intelligence function into a mature and proactive data science function, which works side-by-side with engineers and product managers across the business to embed ML into our products and services – throughout the full ML lifecycle (experimentation, training, testing and cloud deployment).</li>
         <li>Designing and implementing Prezzee's financial reporting strategy, which uses dynamic statistical models to determine our cash flow and net margin from $2B of annual sales, as well as quantify and risk-weight $100M of customer deposit liabilities.</li>

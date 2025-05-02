@@ -1,7 +1,359 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Cushen's Resume</title>
+    <style>
+        body {
+            font-family: monospace;
+            line-height: 1.4;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 1px solid #000;
+            margin-top: 2em;
+        }
+        dt {
+            margin-top: 1em;
+        }
+        dt {
+            font-weight: 600;
+        }
+        dd {
+            margin-left: 0;
+            margin-bottom: 1em;
+        }
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+        ul {
+            margin: 0.5em 0;
+            padding-left: 2em;
+        }
+        .toggle-container {
+            text-align: left;
+            margin: 0;
+            display: inline-block;
+        }
+        .toggle-button {
+            padding: 4px 12px;
+            margin: 0;
+            cursor: pointer;
+            background: #fff;
+            border: 1px solid #000;
+            font-family: monospace;
+            border-radius: 4px;
+            float: left;
+            position: relative;
+        }
+        .toggle-button:first-child {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .toggle-button:last-child {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            margin-left: -1px;
+        }
+        .toggle-button.active {
+            background: #000;
+            color: #fff;
+            z-index: 1;
+        }
+        .resume-version {
+            display: none;
+        }
+        .resume-version.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="recruiter-version" class="resume-version active">
+        <h1>Ryan Cushen's Resume</h1>
+        <div class="toggle-container">
+            <button class="toggle-button active" onclick="toggleVersion('recruiter')">for recruiters</button>
+            <button class="toggle-button" onclick="toggleVersion('normal')">for normies</button>
+        </div>
+        <h2>Experience</h2>
+        <dl>
+            <dt>
+                Lead Data Scientist,
+                PlayHQ,
+                Melbourne, 2024-
+            </dt>
+            <dd>
+                Currently leading all things data at PlayHQ.
+            </dd>
 
-<div class="container">
-    {% include resume.html %}
-</div>
+            <dt>
+                Data Science Lead,
+                Prezzee,
+                Melbourne, 2022-2024
+            </dt>
+            <dd>
+                Led the analytics and data science team at a fast-growing ecommerce startup. My focus was on building out the function's data science and machine learning capability, while solidifying the foundations of our analytics and business intelligence stack. Key accomplishments included:
+                <ul>
+                    <li>Transforming the team from a reactive business intelligence function into a mature and proactive data science function, which works side-by-side with engineers and product managers across the business to embed ML into our products and services – throughout the full ML lifecycle (experimentation, training, testing and cloud deployment).</li>
+                    <li>Designing and implementing Prezzee's financial reporting strategy, which uses dynamic statistical models to determine our cash flow and net margin from $2B of annual sales, as well as quantify and risk-weight $100M of customer deposit liabilities.</li>
+                    <li>Building an automated forecasting system that produces daily demand forecasts for thousands of products, which has so far saved over $150k in write-offs and stock-outs. In addition to designing the machine learning solution, I also developed all of the necessary infrastructure and orchestration within AWS using Terraform.</li>
+                    <li>Creating a first-party 'fraud lookup tool', which uses graph theory to connect customer personas across transactions and identify patterns in fraud activity. Fraud is a persistent challenge for many ecommerce businesses, and this fraud graph has allowed us to regularly block suspicious transactions, preventing many thousands of dollars of chargebacks.</li>
+                    <li>My team recording the highest engagement and satisfaction scores across the entire business during our recent annual culture survey, which helped me successfully negotiate the retention of two junior analysts.</li>
+                </ul>
+            </dd>
+
+            <dt>
+                Manager,
+                KPMG,
+                Sydney, 2018-22
+            </dt>
+            <dd>
+                As a Manager in the Data Analytics team at KPMG, my responsibilities included:
+                <ul>
+                    <li>Leading teams of junior and senior analysts in the delivery of complex analytics work, from initial scoping through to the presentation and reporting of results</li>
+                    <li>Building relationships with clients, helping to plan and grow their internal analytics capability</li>
+                    <li>Writing and reviewing code written in R, Python and SQL which implemented various data analysis and visualisation techniques</li>
+                    <li>Working with senior Partners to realise the firm's broader data and automation strategy</li>
+                </ul>
+                My work focussed on core financial and operational processes, while my clients spanned organisations in the health, natural resources, energy, retail, government and financial services sectors. I also led the development of new analytics products and services within my team and acted as Product Manager for KPMG's internal automation platform.
+            </dd>
+
+            <dt>
+                Research Assistant,
+                The University of Melbourne,
+                Melbourne, 2018-19
+            </dt>
+            <dd>
+                In addition to my role at KPMG, I assisted Dr Matthew Greenwood-Nimmo in the Faculty of Economics with research, with a focus on Macroeconomics and Econometrics. This primarily involved the development and implementation of econometric models in R, as well as the write-up of results.
+            </dd>
+
+            <dt>
+                Maths Tutor,
+                Manning's Tutors,
+                London, 2016-17
+            </dt>
+            <dd>
+                Whilst in London, I worked part-time as a maths and economics tutor, teaching group and one-on-one sessions with middle to secondary school students. These were run through schools, and ranged in scope from struggling GCSE students to high performing A-Level students. Responsibilities included lesson planning, generation of technical course notes, and coordination with teachers regarding learning strategies for specific students.
+            </dd>
+
+            <dt>
+                Intern,
+                Rio Tinto,
+                London, 2016
+            </dt>
+            <dd>
+                During my time with Rio Tinto, I worked alongside the Economics & Markets team, assisting with the production of commodity price forecasts and testing out my understanding of industrial economics. This involved:
+                <ul>
+                    <li>Writing commodity research reports</li>
+                    <li>Analysis of proprietary cost curve data</li>
+                    <li>An introduction to commodity forecasting methodologies</li>
+                </ul>
+                Key deliverables included an analysis of aluminium industry structure, presented to the group chief economist, and a review of global carbon prices as part of the carbon price forecast. Feedback noted a cogency and clarity of analysis, as well as a quick ability to apply key economic concepts.
+            </dd>
+        </dl>
+
+        <h2>Education</h2>
+        <dl>
+            <dt>
+                MSc in Mathematics,
+                The University of New South Wales,
+                2019 - 2021
+            </dt>
+            <dd>
+                Masters degree in mathematics, with a focus on pure math and computer science. I wrote my thesis on dynamical systems and received a High Distinction.
+            </dd>
+
+            <dt>
+                BCom in Economics,
+                The University of Melbourne,
+                2014 - 2017
+            </dt>
+            <dd>
+                First-Class Honours and Dean's Honours List (top 3%). Contributor to Farrago and committee member with the Melbourne Microfinance Initiative.
+            </dd>
+
+            <dt>
+                Data Science Nanodegree,
+                Udacity,
+                2019
+            </dt>
+            <dd>
+                Building on the material covered in the Machine Learning Nanodogree, this course established a foundation in software engineering, web development, data engineering, and other skills central to the practice of Data Science.
+            </dd>
+
+            <dt>
+                Machine Learning Nanodegree,
+                Udacity,
+                2017
+            </dt>
+            <dd>
+                Extended online course covering the core models and techniques employed across supervised, unsupervised and deep learning problems.
+            </dd>
+        </dl>
+
+        <h2>Projects</h2>
+        <dl>
+            <dt>
+                <a href="https://www.promptpicker.ai/">Prompt Picker</a>,
+                Web Application
+            </dt>
+            <dd>
+                A simple tool that helps optimise system prompts for LLM-driven applications... abandoned.
+            </dd>
+
+            <dt>
+                <a href="https://www.sequentialapp.com">Sequential</a>,
+                Web Application
+            </dt>
+            <dd>
+                Project management tool that models everything as a directed graph... abandoned.
+            </dd>
+
+            <dt>
+                <a href="https://www.tableflipper.io">Tableflipper</a>,
+                Web Application
+            </dt>
+            <dd>
+                A very niche tool for annotating spreadsheets. Useful if you regularly had exactly the same problem as I did! Else not so much. Abandoned.
+            </dd>
+        </dl>
+    </div>
+
+    <div id="normal-version" class="resume-version">
+        <h1>Ryan Cushen's Resume</h1>
+        <div class="toggle-container">
+            <button class="toggle-button active" onclick="toggleVersion('recruiter')">for recruiters</button>
+            <button class="toggle-button" onclick="toggleVersion('normal')">for normies</button>
+        </div>
+        <h2>Experience</h2>
+        <dl>
+            <dt>
+                Analytics Lead,
+                PlayHQ,
+                Melbourne, 2024-
+            </dt>
+            <dd>
+                Looking after all things data at PlayHQ.
+            </dd>
+
+            <dt>
+                Data Science Lead,
+                Prezzee,
+                Melbourne, 2022-2024
+            </dt>
+            <dd>
+                Led the analytics and data science team at an ecommerce startup, doing all the data stuff you do at a startup. Moved pretty fast, only broke a few things.
+            </dd>
+
+            <dt>
+                Manager,
+                KPMG,
+                Sydney, 2018-22
+            </dt>
+            <dd>
+                Led consulting teams working with major corporate clients across various industries. Very serious and grown-up, not very technically sophisticated, but learned a lot about how to actually use data in businesses.
+            </dd>
+
+            <dt>
+                Research Assistant,
+                The University of Melbourne,
+                Melbourne, 2018-19
+            </dt>
+            <dd>
+                Helped with some research in Macroeconomics and Econometrics. In practice, this just meant writing R code that implemented some math I found in a few papers.
+            </dd>
+
+            <dt>
+                Maths Tutor,
+                Manning's Tutors,
+                London, 2016-17
+            </dt>
+            <dd>
+                Taught mathematics and economics to students of various levels, from GCSE to A-Level. Hardest job I've ever had.
+            </dd>
+
+            <dt>
+                Intern,
+                Rio Tinto,
+                London, 2016
+            </dt>
+            <dd>
+                Worked with the economics team on commodity price forecasts and market analysis.
+            </dd>
+        </dl>
+
+        <h2>Education</h2>
+        <dl>
+            <dt>
+                MSc in Mathematics,
+                The University of New South Wales,
+                2019 - 2021
+            </dt>
+            <dd>
+               Focussed on pure math and computer science, wrote a mini thesis on dynamical systems. Was the dumbest guy in the room, at all times.
+            </dd>
+
+            <dt>
+                BCom in Economics,
+                The University of Melbourne,
+                2014 - 2017
+            </dt>
+            <dd>
+                First-Class Honours and Dean's Honours List (top 3%).
+            </dd>
+        </dl>
+
+        <h2>Projects</h2>
+        <dl>
+            <dt>
+                <a href="https://www.promptpicker.ai/">Prompt Picker</a>,
+                Web Application
+            </dt>
+            <dd>
+                A tool that helps optimize system prompts for AI applications.
+            </dd>
+
+            <dt>
+                <a href="https://www.sequentialapp.com">Sequential</a>,
+                Web Application
+            </dt>
+            <dd>
+                Project management tool that uses graph-based visualization.
+            </dd>
+
+            <dt>
+                <a href="https://www.tableflipper.io">Tableflipper</a>,
+                Web Application
+            </dt>
+            <dd>
+                A specialized tool for spreadsheet annotation and analysis.
+            </dd>
+        </dl>
+    </div>
+
+    <script>
+        function toggleVersion(version) {
+            // Update button styles for both versions
+            const allButtons = document.querySelectorAll('.toggle-button');
+            allButtons.forEach(button => {
+                const isRecruiter = button.textContent.toLowerCase().includes('recruiter');
+                if ((version === 'recruiter' && isRecruiter) || (version === 'normal' && !isRecruiter)) {
+                    button.classList.add('active');
+                } else {
+                    button.classList.remove('active');
+                }
+            });
+
+            // Show/hide appropriate version
+            document.querySelectorAll('.resume-version').forEach(div => {
+                div.classList.remove('active');
+            });
+            document.getElementById(version + '-version').classList.add('active');
+        }
+    </script>
+</body>
+</html>

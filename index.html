@@ -4,80 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Cushen's Resume</title>
-    <style>
-        body {
-            font-family: monospace;
-            line-height: 1.4;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h2 {
-            border-bottom: 1px solid #000;
-            margin-top: 2em;
-        }
-        dt {
-            margin-top: 1em;
-        }
-        dt {
-            font-weight: 600;
-        }
-        dd {
-            margin-left: 0;
-            margin-bottom: 1em;
-        }
-        a {
-            color: #000;
-            text-decoration: underline;
-        }
-        ul {
-            margin: 0.5em 0;
-            padding-left: 2em;
-        }
-        .toggle-container {
-            text-align: left;
-            margin: 0;
-            display: inline-block;
-        }
-        .toggle-button {
-            padding: 4px 12px;
-            margin: 0;
-            cursor: pointer;
-            background: #fff;
-            border: 1px solid #000;
-            font-family: monospace;
-            border-radius: 4px;
-            float: left;
-            position: relative;
-        }
-        .toggle-button:first-child {
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
-        }
-        .toggle-button:last-child {
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
-            margin-left: -1px;
-        }
-        .toggle-button.active {
-            background: #000;
-            color: #fff;
-            z-index: 1;
-        }
-        .resume-version {
-            display: none;
-        }
-        .resume-version.active {
-            display: block;
-        }
-    </style>
+<style>body{font-family:monospace;line-height:1.4;max-width:800px;margin:0 auto;padding:20px}h2{border-bottom:1px solid #000;margin-top:2em}dt{margin-top:1em;font-weight:600}dd{margin-left:0;margin-bottom:1em}a{color:#000;text-decoration:underline}ul{margin:.5em 0;padding-left:2em}.toggle-container{text-align:left;margin:0;display:inline-block}.toggle-button{padding:4px 12px;margin:0;cursor:pointer;background:#fff;border:1px solid #000;font-family:monospace;border-radius:4px;float:left;position:relative}.toggle-button:first-child{border-top-right-radius:0;border-bottom-right-radius:0}.toggle-button:last-child{border-top-left-radius:0;border-bottom-left-radius:0;margin-left:-1px}.toggle-button.active{background:#000;color:#fff;z-index:1}.resume-version{display:none}.resume-version.active{display:block}</style>
 </head>
 <body>
     <div id="recruiter-version" class="resume-version active">
         <h1>Ryan Cushen's Resume</h1>
         <div class="toggle-container">
-            <button class="toggle-button active" onclick="toggleVersion('recruiter')">for recruiters</button>
-            <button class="toggle-button" onclick="toggleVersion('normal')">for normies</button>
+            <button class="toggle-button active" data-version="recruiter">for recruiters</button>
+            <button class="toggle-button" data-version="normal">for normies</button>
         </div>
         <h2>Experience</h2>
         <dl>
@@ -226,8 +160,8 @@
     <div id="normal-version" class="resume-version">
         <h1>Ryan Cushen's Resume</h1>
         <div class="toggle-container">
-            <button class="toggle-button active" onclick="toggleVersion('recruiter')">for recruiters</button>
-            <button class="toggle-button" onclick="toggleVersion('normal')">for normies</button>
+            <button class="toggle-button active" data-version="recruiter">for recruiters</button>
+            <button class="toggle-button" data-version="normal">for normies</button>
         </div>
         <h2>Experience</h2>
         <dl>
@@ -335,25 +269,6 @@
         </dl>
     </div>
 
-    <script>
-        function toggleVersion(version) {
-            // Update button styles for both versions
-            const allButtons = document.querySelectorAll('.toggle-button');
-            allButtons.forEach(button => {
-                const isRecruiter = button.textContent.toLowerCase().includes('recruiter');
-                if ((version === 'recruiter' && isRecruiter) || (version === 'normal' && !isRecruiter)) {
-                    button.classList.add('active');
-                } else {
-                    button.classList.remove('active');
-                }
-            });
-
-            // Show/hide appropriate version
-            document.querySelectorAll('.resume-version').forEach(div => {
-                div.classList.remove('active');
-            });
-            document.getElementById(version + '-version').classList.add('active');
-        }
-    </script>
+<script>const buttons=document.querySelectorAll('.toggle-button'),versions=document.querySelectorAll('.resume-version');document.addEventListener('click',e=>{if(!e.target.classList.contains('toggle-button'))return;const version=e.target.dataset.version;buttons.forEach(b=>b.classList.toggle('active',b.dataset.version===version));versions.forEach(v=>v.classList.toggle('active',v.id===version+'-version'))})</script>
 </body>
 </html>

@@ -1,0 +1,74 @@
+.thesis-animation {
+    --thesis-series: #329dff;
+    --thesis-ink: #171717;
+    --thesis-floor: #f1f1f1;
+    max-width: 600px;
+    margin: 1.75em auto 2em;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.thesis-animation canvas {
+    display: block;
+    width: 100%;
+    height: clamp(300px, 64vw, 410px);
+}
+
+.thesis-controls:not([hidden]) {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0.5em 0 1em;
+}
+
+.thesis-controls button {
+    padding: 0.4em 0.7em;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.thesis-controls button:hover {
+    background: #f1f1f1;
+}
+
+.thesis-controls button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+.thesis-status {
+    margin-left: auto;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.thesis-animation figcaption {
+    color: #555;
+    font-size: 0.95em;
+}
+
+@media (max-width: 500px) {
+    .thesis-status {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (pointer: coarse) {
+    .thesis-controls button {
+        min-height: 44px;
+    }
+}
+
+@media print {
+    .thesis-animation {
+        display: none;
+    }
+}

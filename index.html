@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ryan Cushen resume">
     <title>Ryan Cushen's Resume</title>
+    <link rel="stylesheet" href="assets/thesis-animation.css">
+    <script src="assets/thesis-animation.js" defer></script>
 <style>body{font-family:monospace;line-height:1.4;max-width:800px;margin:0 auto;padding:20px}h2{border-bottom:1px solid #000;margin-top:2em}dt{margin-top:1em;font-weight:600}dd{margin-left:0;margin-bottom:1em}a{color:#000;text-decoration:underline}dt .rhs{float:right}</style>
 </head>
 <body>
@@ -58,6 +60,16 @@
         </dt>
         <dd>
             Masters degree in mathematics, with a focus on pure math and computer science. I wrote my thesis on dynamical systems and received a High Distinction.
+            <figure class="thesis-animation" id="thesis-animation">
+                <canvas role="img" aria-describedby="thesis-caption" aria-label="Scattered particles slowly settle into circular motion. A live Gaussian density estimate above them evolves into a stable ring. The animation repeats every 90 seconds.">
+                    Particles keep moving around a ring while their probability density settles into a stable shape.
+                </canvas>
+                <div class="thesis-controls" hidden>
+                    <button type="button" data-scatter>Scatter again</button>
+                    <span class="thesis-status" aria-live="polite">Fitting density · converging</span>
+                </div>
+                <figcaption id="thesis-caption">A toy dynamical system inspired by my master's thesis. Particles keep moving while a live Gaussian density estimate eventually settles into a stable ring, the 'invariant density'.</figcaption>
+            </figure>
         </dd>
 
         <dt>
